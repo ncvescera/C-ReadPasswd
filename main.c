@@ -40,9 +40,9 @@ int main(int argc, char** argv) {
       
         cont = i;
         for(i=0;i<cont;i++){
-            if(riga[i].user >= 1000 && riga[i].user <=  65534){
+            if(riga[i].user >= 1000 && riga[i].user <=  9999){
                 printf("Name: %s\n",riga[i].name);
-                printf("UserId: %d\n",riga[i].user);
+                printf("UserId:\n%d\n",riga[i].user);
                /* printf("Type: %s\n",riga[i].type);
                 printf("Other: %s\n",riga[i].other);*/
             }
